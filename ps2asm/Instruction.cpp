@@ -1,9 +1,9 @@
 #include "Instruction.h"
 
-Instruction::Instruction(unsigned int opcode) {
-	this->opcode = opcode;
+Instruction::Instruction(std::uint_fast32_t instruction) : _instruction(instruction), _opcode(this->_instruction >> 26) {
+
 }
 
-unsigned int Instruction::getOpcode() const {
-	return this->opcode;
+std::uint_fast8_t Instruction::getOpcode() const {
+	return this->_opcode;
 }
