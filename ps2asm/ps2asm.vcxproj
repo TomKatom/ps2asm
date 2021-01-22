@@ -130,6 +130,7 @@
     <ClCompile Include="JInstruction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RInstruction.cpp" />
+    <ClCompile Include="SpecialInstruction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Disassembler.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="Instruction.h" />
     <ClInclude Include="JInstruction.h" />
     <ClInclude Include="RInstruction.h" />
+    <ClInclude Include="SpecialInstruction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
