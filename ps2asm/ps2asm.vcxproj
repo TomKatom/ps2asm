@@ -125,12 +125,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Disassembler.cpp" />
+    <ClCompile Include="IInstruction.cpp" />
     <ClCompile Include="Instruction.cpp" />
+    <ClCompile Include="JInstruction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RInstruction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Disassembler.h" />
+    <ClInclude Include="IInstruction.h" />
     <ClInclude Include="Instruction.h" />
+    <ClInclude Include="JInstruction.h" />
+    <ClInclude Include="RInstruction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
