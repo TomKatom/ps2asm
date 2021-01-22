@@ -10,3 +10,14 @@ Disassembler::~Disassembler() {
 	if (this->_input_file.is_open())
 		this->_input_file.close();
 }
+
+void Disassembler::printDisassembledCode() const {
+	for (auto instruction : this->_instructions) {
+		std::cout << instruction.disassemble() << "\n";
+	}
+	std::cout << std::endl;
+}
+
+void Disassembler::disassemble() {
+
+}
